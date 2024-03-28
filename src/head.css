@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Logo-Font';
+    src: url(font/LoversQuarrel-Regular.ttf);
+}
+@font-face {
+    font-family: 'logo';
+    src: url(font/Back\ to\ Black\ Demo.ttf);
+}
+@font-face {
+    font-family: 'base-text';
+    src: url(../src/font/FrederickatheGreat-Regular.ttf);
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(29, 28, 28);
+    margin: 0;
+    height: 6%;
+}
+.logo{
+    display: flex;
+    color: rgb(253, 204, 80);
+    font-family: 'base-text';
+    font-size: 150%;
+    text-decoration: none;
+    text-shadow: 10px 10px 10px black;
+    text-align: center;
+    background-image: url(../src/imge/pexels-francesco-ungaro-396547.jpg);
+    background-size: cover;
+    border-radius: 2vh;
+    justify-content: center;
+    align-items: center;
+    text-shadow:
+    -1px 3px 0 black,
+    5px 3px 0 white;
+    border-radius: 2vh;
+    padding-bottom: 2%;
+}
+.logo:visited{
+    color: rgb(253, 204, 80);
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+header button{
+    border-radius: 10px;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    font-family: 'Logo-Font';
+    font-size: 4vh;
+}
+.Home{
+    background-image: url(../src/imge/no.jpg);
+    background-size: cover;
+    opacity: 50%;
+
+}
+.Menu{
+    background-image: url(../src/imge/no.jpg);
+    background-size: cover;
+    opacity: 50%;
+}
+.about{
+    background-image: url(../src/imge/no.jpg);
+    background-size: cover;
+    opacity: 50%;
+}
