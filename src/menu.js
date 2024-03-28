@@ -1,5 +1,7 @@
 import './menu.css'
-import './imge/Bread.jpg' 
+import './imge/Bread.jpg'
+import './imge/coq.jpg'
+import './imge/wine.jpeg'
 const content= document.querySelector('#content');
 export const menu = ()=>{
     while(content.hasChildNodes()){
